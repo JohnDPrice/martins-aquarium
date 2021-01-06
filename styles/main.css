@@ -1,0 +1,107 @@
+/* Default Page Styling */
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  img {
+    height: 20vh;
+  }
+
+  h1 {
+      font-size: 5vh;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 3.5vh;
+  }
+
+  h3 {
+      font-size: 2vh;
+      text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .main-content {
+    padding-left: 2em;
+    padding-top: 1em;
+    width: 75%;
+    background-color: lightsteelblue;
+    border-radius: .5em;
+  }
+  
+  aside {
+    background-color: lightskyblue;
+    padding: 1em;
+    margin-left: .5em;
+    border-radius: .3em;
+  }
+  
+  .fish-card {
+    display: flex;
+    align-items: center;
+    border: .2em solid salmon;
+    background-color: white;
+    border-radius: .5em;
+    margin-right: 2em;
+    font-weight: bold;
+  }
+  
+  .fish-card__text {
+    width: 70%;
+    text-align: center;
+  }
+
+  .quotes {
+      background-color: white;
+      margin-right: 2em;
+      border-radius: .5em;
+      margin-top: 4em;
+      margin-bottom: 2em;
+      padding: .1em;
+      padding-bottom: 1em;
+  }
+
+  .quotes-text {
+      text-align: center;
+  }
+  
+  .location-list {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    margin-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: .5em;
+  }
+  
+  .location-card {
+    border: .2em solid black;
+    margin: 1em;
+    border-radius: .5em;
+  }
+
+  footer {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 3em;
+      margin-bottom: 2em;
+  }
+
+
+  
+  /* .location-card img {
+  } */
+  
