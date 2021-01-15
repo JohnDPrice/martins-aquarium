@@ -104,8 +104,8 @@
   .button {
       display: flex;
       justify-content: center;
-      margin-right: 50em;
-      margin-left: 50em;
+      margin-right: 25vh;
+      margin-left: 25vh;
       margin-top: 5em;
       border: 1px solid black;
       padding: 1em;
@@ -115,6 +115,11 @@
       background-color: lightskyblue;
   }
 
+  .tip-container {
+       font-size: 2vh;
+  }
+
+  
   
 
  

@@ -10,7 +10,7 @@ export function FishList() {
 
     let fishListHTMLString = ""
     for (const currentFishInLoop of allTheFish) {
-        console.log(currentFishInLoop);
+        console.log(currentFishInLoop)
         fishListHTMLString += Fish(currentFishInLoop);
     }
 
