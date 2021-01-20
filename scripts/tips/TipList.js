@@ -12,11 +12,8 @@ export function TipList() {
 
     let tipListHTMLString = ""
     for (const currentTipInLoop of allTheTips) {
-        console.log(currentTipInLoop);
         tipListHTMLString += Tip(currentTipInLoop);
     }
-
-    console.log(tipListHTMLString)
 
     tipContainer.innerHTML = `<h2>Fish Tips</h2><h3>Temperature</h3><ul class = "tip-container">${tipListHTMLString}</ul>`;
 }
@@ -28,10 +25,8 @@ export function salinityTipList() {
 
     let salinityTipListHTMLString = ""
     for (const currentSalinityTipInLoop of allTheSalinityTips) {
-        console.log(currentSalinityTipInLoop);
         salinityTipListHTMLString += salinityTip(currentSalinityTipInLoop);
     }
 
-    console.log(salinityTipListHTMLString)
     tipContainer.innerHTML += `<h3>Salinity</h3><ul class = "tip-container">${salinityTipListHTMLString}</ul>`;
 }

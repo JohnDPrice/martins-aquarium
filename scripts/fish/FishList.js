@@ -10,11 +10,8 @@ export function FishList() {
 
     let fishListHTMLString = ""
     for (const currentFishInLoop of allTheFish) {
-        console.log(currentFishInLoop)
         fishListHTMLString += Fish(currentFishInLoop);
     }
-
-    console.log(fishListHTMLString)
 
     fishContainer.innerHTML = `<h2>My Fish</h2>${fishListHTMLString}`;
 }
